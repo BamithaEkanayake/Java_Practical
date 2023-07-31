@@ -1,0 +1,123 @@
+01.
+package com.mycompany.helloworld;
+public class HelloWorld 
+{
+
+    public static void main(String[] args) 
+    {
+        System.out.println("Hello World!");
+    }
+}
+
+02.
+class Name_Digree 
+{
+
+    public static void main(String[] args) 
+    {
+        System.out.println("Bamitha Ekanayake");
+        System.out.println("Computer Science");
+    }
+}
+ 
+03.
+package com.mycompany.helloworld;
+public class HelloWorld 
+{
+
+    public static void main(String[] args) 
+    {
+        for(int i=0;i<5;i++)
+        {
+            System.out.println("Executing Loop "+i);
+        }
+        
+        System.out.print("\n");
+        
+        int j=0;
+        while(j!=5)
+        {
+            System.out.println("Executing Loop "+j);
+            j++;
+        }
+    }
+}
+
+04.
+//Break
+10
+20
+I’m  out of the Loop now.
+
+//Continue
+10
+20
+40
+50
+I’m  out of the Loop now.
+
+
+05.
+i)
+Excellent!
+Your grade is A
+
+ii)
+Excellent!
+You passed
+Better Try Again
+Your grade is A
+
+iii)
+package com.mycompany.helloworld;
+public class HelloWorld 
+{           
+    public static void main(String[] args)
+      {
+        char grade ='A';
+	
+        if(grade=='A')
+        {
+            System.out.println("Excellent!"); 
+        }
+        else if(grade=='D')
+        {
+            System.out.println("You passed");
+        }
+        else if(grade=='F')
+        {
+            System.out.println("Better Try Again");
+        }
+        else
+        {
+            System.out.println("Invalid grade");
+        }	
+	
+	System.out.println("Your grade is "+grade);
+      }
+}
+
+06.
+package com.mycompany.helloworld;
+public class TestEnhanceForLoop 
+{           
+    public static void main(String[] args)
+      {
+        int [] numbers = {10, 20, 30, 40, 50};
+        for(int x : numbers)
+        {
+            System.out.print(x);
+            System.out.print(",");
+      	}
+	
+        System.out.print("\n");
+      	
+        String [] names ={"James", "Larry", "Tom", "Lacy"};
+      	for(String name : names) 
+        {
+            System.out.print(name);
+            System.out.print(",");
+        }
+      }
+
+}
