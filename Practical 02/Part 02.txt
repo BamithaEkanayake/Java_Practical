@@ -1,0 +1,6 @@
+01. b) super
+03. b) private
+04. b) Packages
+05. c) import pkg.*
+06. c) charAt()
+07. d) length()
